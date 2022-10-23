@@ -32,3 +32,10 @@ test {
 compileTestJava {
 	options.compilerArgs=["-parameters"]
 }
+bootJar {
+	enabled = false
+}
+
+jar {
+	enabled = true
+}
